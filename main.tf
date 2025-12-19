@@ -1,5 +1,5 @@
 module "backend" {
-  source        = "git::https://github.com/benayyad12/terraform-ec2-aws.git"
+  source        = "git::https://github.com/benayyad12/terraform-aws-backend.git"
   bucket_name   = var.bucket_name
   dynamodb_name = var.dynamodb_name
   region        = var.region
