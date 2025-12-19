@@ -5,6 +5,8 @@ module "backend" {
   region        = var.region
   pay_mode      = var.pay_mode
   hkey          = var.hkey
+  backend_key   = var.backend_key
+  
 }
 
 module "ec2" {
