@@ -1,8 +1,8 @@
 resource "aws_instance" "ubuntu-ec2" {
-  ami           = 
+  ami           = vqr.ami
   instance_type = var.instance_type
 
   tags = {
-    Name = "ec2 ubuntu test"
+    Name = "ec2 ubuntu"
   }
 }
